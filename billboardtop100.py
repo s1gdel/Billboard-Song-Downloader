@@ -50,7 +50,7 @@ def searchYT(storedsongs):
 urls = searchYT(storedsongs)
 
 # Set download path
-download_path = r"C:\Users\subha\OneDrive\Desktop\Code\downloads"
+download_path = r"DESIRED PATH HERE"
 
 # Download the songs using yt-dlp
 def download_song(urls, download_path):
